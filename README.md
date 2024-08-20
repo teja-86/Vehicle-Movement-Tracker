@@ -1,14 +1,59 @@
-# Getting Started with Create React App
+# Vehicle Movement Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time web app showcasing vehicle movement on a map with React, Leaflet, and Tailwind CSS. It dynamically updates the vehicle's position and path on the map, highlighting integration with mapping libraries and responsive design principles.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Contributing](#contributing)
 
-## `npm install`
+## Features
 
-Then go to next step below
+- **Real-time Vehicle Tracking:** Display the current location of vehicles on a map in real-time using GPS data.
+- **Interactive Map Interface:** Utilize Leaflet to provide a responsive, interactive map interface for users to zoom, pan, and explore different regions.
+- **Custom Markers:** Use custom markers to represent vehicles, with different icons or colors based on the vehicle type or status.
+- **Route Visualization:** Show the route taken by the vehicle with polylines on the map, allowing users to visualize the vehicle's journey.
+- **Historical Route Playback:** Allow users to replay a vehicle's route history on the map, showing the path it took over a specified time period.
+- **Responsive Design:** Ensure the map and tracking features are accessible and functional across different devices and screen sizes.
+- **Vehicle Status Indicators:** Display vehicle statuses such as "moving," "idle," or "stopped" with different marker colors or icons.
+
+## Tech Stack
+
+- **Frontend:** React.js, Leaflet,JavaScript (ES6+), HTML5 & CSS3, Tailwind CSS
+- **Maps and Geolocation:** Leaflet, Google Maps API
+- **Version Control:** Git and GitHub
+- **Deployment:** Render.com
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js** (v14.x or higher)
+- **npm** (v6.x or higher)
+- **Git** installed on your machine
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/teja-86/Vehicle-Movement-Tracker.git
+   cd Vehicle-Movement-Tracker
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Set up the environment variables:**
+
+   Give your needed environment variables in the .env file in the root of the project and configure them.
+
+## Running the Application
 
 ### `npm start`
 
@@ -72,3 +117,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`.
+3. Make your changes and commit them: `git commit -m 'Add Your Feature'`.
+4. Push to the branch: `git push origin feature/YourFeature`.
+5. Open a Pull Request.
